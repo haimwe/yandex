@@ -1,0 +1,54 @@
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.card {
+  margin: 110px 380px 0px;
+  width: 520px;
+  height: 190px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  margin: 0 440px 10px;
+  height: 140px;
+  width: 400px;
+  font-size: 120px;
+  line-height: 140px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.title2 {
+  margin: 0 440px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  height: 140px;
+  width: 400px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.title:hover + .title2 {
+  visibility: visible;
+  transition: .4s ease-in-out;
+}
+
+.lowertitle {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  margin: 100px 440px 30px;
+  height: 140px;
+  width: 400px;
+  text-align: center;
+}
+
+
